@@ -1,0 +1,45 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: larger;
+}
+
+nav button {
+    border: none;
+    font-size: medium;
+}
+
+#hearder-details {
+    /* border: red 3px solid; */
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.container {
+    margin: 60px 0px;
+}
+
+.details {
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 77px;
+}
+
+#btn-logout {
+    position: relative;
+    left:20px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}

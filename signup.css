@@ -1,0 +1,115 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: larger;
+}
+
+nav button {
+    border: none;
+    font-size: medium;
+}
+
+#hearder-details {
+    /* border: red 3px solid; */
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 77px;
+    color: #FFFFFF;
+
+
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 40px 250px;
+}
+
+.sighup_details {
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 2px; */
+    width: 60vw;
+}
+
+input {
+    padding: 20px 0px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+
+#btn-signup {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+
+#error {
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+
+#success {
+    color: greenyellow;
+    font-size: 20px;
+    display: none;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 40px 250px;
+}
+
+.sighup_details {
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 2px; */
+    width: 60vw;
+}
+
+input {
+    padding: 20px 0px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+
+#btn-signup {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+
+#error {
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+
+#success {
+    color: greenyellow;
+    font-size: 20px;
+    display: none;
+}
